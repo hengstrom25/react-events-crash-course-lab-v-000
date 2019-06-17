@@ -11,15 +11,20 @@ export default class ChromeBoisDomain extends Component {
      * (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
      */
      let x = event.clientX;
+<<<<<<< HEAD
      let y = event.clientY;
      
      drawChromeBoiAtCoords(x,y);
+=======
+     let y - event.clientY;
+>>>>>>> d4f9827e29fa4a2289046e051b8695a946e4e4a7
   }
   
   /* TODO: Create an event handler which, when fired, invokes the provided
    * `toggleCycling` function with no arguments. Don't forget the click event
    * listener that should fire it!
    */
+  <button onClick={this.toggleCycling}></button> 
    
    handleClick = (event) => {
    		toggleCycling();
